@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy: intense-eyrie-84941
+  provider: heroku
+  api_key:
+    secure: SaSm5+kaZiE4WQ0xIrlI3fIYXOF/wLGNC6Ub+00eZwONXQJFZet9GaVdhk/bMfa2/tFfQ+AR5jAcDeHHUe1BZC+/6LzUTLcBAMnHKiIsaZFTDSD4yoj6Lb7DMRqDcphFUcMwyWmWzqDNAi8QJgRe6RoCBq+RZ3F7tsUSoSeUmyBIAK2hq0QJ/mFK5PyKAqvk0bA5q0gynzWd3AqWBfJQxCRyLYAswVHv8yTkrQ1lioGeD8v0Nwr/BBRWf0IQI5Q9t2FDYxa843InqftIZ2qVJDSqO1PhG1K3odnYh0feEOjOzSLz1NDjsucgX4OHeFycC21dbk08NzuTvqBwY4nR3qPMXyVx5CqooU3WtvxkJeAF9rXFHPMMYVzS69otR/l3SXuZzNJj1t/X3XpRbRfjznp9oP5nXyduu7g9C05GtH0OQSK6Db8uyy5mBsoD6Y0R6S8TZEnBDAJBwnjBqv5uGjjznLVMD7p8z0HdvlE3Q/I0RxwnxIS8xC2oIDQQewq3oVPBG/l6vuLerT66MbVxhs0pe8C0f6OfXO3fwbFlmKWrNdvfWj0K7w3dMHeYcWesfqiwRktZT0WRG39VQc1RBOUjw/NwUDg/O801GLnd33AHqh8VI+hnk88QhMdGQAV3C32Q1WOHJ7DdJbdOC1+HE425PbfOPVVleSdrnoDqQxg=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: cymruhangu/node-shopping-list-integration-tests
+    branch: feature/test-for-recipes
